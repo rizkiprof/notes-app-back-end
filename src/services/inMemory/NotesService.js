@@ -1,3 +1,4 @@
+/* eslint no-underscore-dangle: ["error", { "allowAfterThis": true }] */
 const { nanoid } = require('nanoid');
 
 class NotesService {
