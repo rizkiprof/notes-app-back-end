@@ -15,7 +15,7 @@ class NotesService {
       title, tags, body, id, createdAt, updatedAt,
     };
 
-    this.notes.push(newNote);
+    this._notes.push(newNote);
 
     const isSuccess = this._notes.filter((note) => note.id === id).length > 0;
 
