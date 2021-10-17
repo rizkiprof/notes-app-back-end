@@ -1,4 +1,3 @@
-/* eslint no-underscore-dangle: ["error", { "allowAfterThis": true }] */
 const ClientError = require('../../exceptions/ClientError');
 
 class NotesHandler {
